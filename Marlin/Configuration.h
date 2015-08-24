@@ -578,7 +578,7 @@ const bool Z_MIN_PROBE_ENDSTOP_INVERTING = false; // set to true to invert the l
 // default settings
 
 #define DEFAULT_AXIS_STEPS_PER_UNIT   {100.5,100.5,1600,842}  // default steps per unit for TAZ {X,Y,Z,E}
-#define DEFAULT_MAX_FEEDRATE          {300, 300, 8, 50}      // (mm/sec)
+#define DEFAULT_MAX_FEEDRATE          {180, 180, 8, 35}      // (mm/sec)
 #define DEFAULT_MAX_ACCELERATION      {2000,2000,100,2000}  // X, Y, Z, E maximum start speed for accelerated moves. E default values are good for skeinforge 40+, for older versions raise them a lot.
 #define DEFAULT_E1_STEPS_PER_UNIT     842                    // default steps per unit for second extruder
 
